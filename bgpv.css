@@ -1,0 +1,38 @@
+.first_class {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-right: 38px;
+  padding-left: 38px;
+
+  /* padding-bottom: 10px; */
+}
+
+body {
+
+  background-color:	#D2B48C;
+}
+.footer {
+  position:fixed;
+  background:	#2f4f4f;
+  color: #7fff00;
+  bottom:0;
+  width:100%;
+}
+
+#first {
+  font-size: 18px;
+}
+#second {
+  font-size: 25px;
+  /* display:inline-block; */
+  text-align: center;
+}
+
+#third {
+  font-size: 21px;
+}
+
+#fourth {
+  font-size: 21px;
+}
