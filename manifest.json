@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "BG Popular Verses",
+  "name": "BG and SB Popular Verses",
   "content_scripts": [{
-     "js": ["bgpv.js"],
+     "js": ["main.js"],
      "matches": ["http://*/*", "https://*/*"]
    }],
-  "description": "Verses most qouted by S.P.",
+  "description": "BG and SB verses most qouted by S.P.",
   "version": "1.0",
   "permissions": ["storage", "activeTab"],
   "icons": {
@@ -18,6 +18,6 @@
     "default_popup": "popup.html"
   },
   "chrome_url_overrides": {
-    "newtab": "bgpv.html"
+    "newtab": "main.html"
   }
 }

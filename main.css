@@ -1,0 +1,40 @@
+body {
+  background-color:	#D2B48C;
+}
+h1, h2, .wrapper-synonyms, .wrapper-translation, .wrapper-puport {
+  font-family: 'Times New Roman';
+}
+.footer {
+  position:fixed;
+  background:	#2f4f4f;
+  color: #7fff00;
+  bottom:0;
+  height:10%;
+  left: 0;
+  min-width:100%;
+  /* justify-content: left; */
+}
+#all {
+  padding-right: 38px;
+  padding-left: 38px;
+  padding-bottom: 50px;
+}
+#first {
+  font-size: 22px;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  /* padding-top: 10px; */
+
+}
+
+#second {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.section-title.none {
+  font-size: 7px;
+  visibility: hidden;
+}
